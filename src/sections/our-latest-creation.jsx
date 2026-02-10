@@ -38,7 +38,7 @@ export default function OurLatestCreation() {
         "Tableau Public",
       ],
       links: {
-        live: "http://127.0.0.1:8000",
+        image: "/projects/revenue-dashboard.png",
         github: "https://github.com/Disha-04/operational-revenue-signal-monitor",
         tableau: "https://public.tableau.com/views/Book1_17705258725070/Sheet1",
       },
