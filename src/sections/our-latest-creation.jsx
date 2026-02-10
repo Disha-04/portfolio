@@ -37,8 +37,9 @@ export default function OurLatestCreation() {
         "HTML/CSS/JS",
         "Tableau Public",
       ],
+      image: "/projects/revenue-dashboard.png",
       links: {
-        image: "/projects/revenue-dashboard.png",
+        
         github: "https://github.com/Disha-04/operational-revenue-signal-monitor",
         tableau: "https://public.tableau.com/views/Book1_17705258725070/Sheet1",
       },
@@ -95,7 +96,18 @@ export default function OurLatestCreation() {
               ))}
             </div>
 
-            {/* Title & description */}
+            {/* Project Image */}
+            {project.image && (
+              <div className="mb-5 overflow-hidden rounded-xl border border-white/10">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+            )}
+
+            {/* Title & description */}}
             <h3 className="text-lg font-semibold text-white">{project.title}</h3>
 
             <p className="mt-2 text-sm text-white/70">{project.description}</p>
