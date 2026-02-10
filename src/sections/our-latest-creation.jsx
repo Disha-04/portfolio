@@ -20,17 +20,28 @@ export default function OurLatestCreation() {
       },
     },
     {
-      title: "Data Analytics Project",
-      description:
-        "Planned analytics project focused on transforming raw data into actionable insights using SQL, Python, and visualization tools.",
-      metrics: [
-        { label: "Category", value: "Analytics" },
-        { label: "Focus", value: "Data" },
-        { label: "Status", value: "Planned" },
-      ],
-      stack: ["Python", "SQL", "Pandas", "Power BI"],
-      links: {},
-    },
+  title: "Operational Revenue Signal Monitor",
+  description:
+    "End-to-end real-time revenue monitoring system: simulated event stream → rolling 5-minute KPI windows → FastAPI API → premium executive dashboard + Tableau Public. Includes SLA/data freshness signals and WARN/CRIT alerting.",
+  metrics: [
+    { label: "Category", value: "Analytics + Web" },
+    { label: "Focus", value: "Real-time KPIs" },
+    { label: "Status", value: "Deployed" },
+  ],
+  stack: [
+    "Python",
+    "FastAPI",
+    "Pandas",
+    "HTML/CSS",
+    "JavaScript",
+    "Chart.js",
+    "Tableau Public",
+  ],
+  links: {
+    live: "https://public.tableau.com/app/profile/disha.menghani/viz/Book1_17705258725070/Sheet1?publish=yes",
+    github: "https://github.com/Disha-04/operational-revenue-signal-monitor",
+  },
+},
     {
       title: "Machine Learning Project",
       description:
