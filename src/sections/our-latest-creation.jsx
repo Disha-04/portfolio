@@ -37,9 +37,11 @@ export default function OurLatestCreation() {
         "HTML/CSS/JS",
         "Tableau Public",
       ],
-      image: "/projects/revenue-dashboard.png",
+
+      // ✅ because your file is public/revenue-dashboard.png
+      image: "/revenue-dashboard.png",
+
       links: {
-        
         github: "https://github.com/Disha-04/operational-revenue-signal-monitor",
         tableau: "https://public.tableau.com/views/Book1_17705258725070/Sheet1",
       },
@@ -102,14 +104,14 @@ export default function OurLatestCreation() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover"
+                  className="h-48 w-full object-cover"
+                  loading="lazy"
                 />
               </div>
             )}
 
-            {/* Title & description */}}
+            {/* Title & description */}
             <h3 className="text-lg font-semibold text-white">{project.title}</h3>
-
             <p className="mt-2 text-sm text-white/70">{project.description}</p>
 
             {/* Tech stack */}
@@ -148,7 +150,6 @@ export default function OurLatestCreation() {
                 </a>
               )}
 
-              {/* OPTIONAL: Tableau button (shows only if tableau link exists) */}
               {project.links?.tableau && (
                 <a
                   href={project.links.tableau}
