@@ -14,18 +14,7 @@ export default function OurTestimonials() {
         "Monitored data quality checks across recurring ETL runs and reduced data-related reporting issues by approximately 15% through consistent validation and reconciliation.",
       ],
     },
-    {
-      role: "Project Management Intern",
-      org: "Eagle Infrastructure Pvt. Ltd., India | Maharashtra, India",
-      duration: "Jul 2023 – Dec 2023",
-      points: [
-        "Led delivery of data retention and compliance initiatives in regulated environments by translating control requirements into technical ETL specifications, supporting platforms handling hundreds of thousands of records monthly and maintaining 100% audit-compliant releases.",
-        "Translated business and regulatory requirements into project plans and PRDs, improving on-time delivery by 15%, reducing rework by 10%, and improving release stability across the SDLC",
-        "Coordinated with engineering, compliance, operations, and vendors to implement data validation frameworks and orchestrate scheduled ETL workflows for 3–5 annual releases, improving stakeholder adoption by 15–20% and reducing post-release issues by 10%.",
-        // Added (new, metric-based, genuine)
-        "Tracked milestones, risks, and delivery metrics across releases, improving stakeholder visibility and reducing schedule variance by approximately 10%.",
-      ],
-    },
+    
     {
       role: "Machine Learning & Data Analyst Intern",
       org: "YHills | Remote, India",
