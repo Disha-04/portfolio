@@ -1,5 +1,5 @@
 import GetInTouch from "./sections/get-in-touch";
-import OurTestimonials from "./sections/our-testimonials";
+
 
 
 
@@ -18,7 +18,6 @@ export default function Page() {
                 <HeroSection />
                 <OurLatestCreation />
                 <AboutOurApps />
-                <OurTestimonials />
                 
                 <GetInTouch />
                 
